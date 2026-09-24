@@ -17,7 +17,7 @@ Before contributing, ensure you have:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/flamingo-stack/openframe-oss-tenant.git
+   git clone https://github.com/rvenslovas-a11y/openframe-oss-tenant.git
    cd openframe-oss-tenant
    ```
 

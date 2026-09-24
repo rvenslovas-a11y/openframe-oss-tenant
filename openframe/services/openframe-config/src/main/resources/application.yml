@@ -10,7 +10,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/flamingo-stack/openframe-oss-tenant
+          uri: https://github.com/rvenslovas-a11y/openframe-oss-tenant
           default-label: ${CONFIG_GIT_BRANCH:main}
           # Load base first, then let profile override base
           search-paths: "configs/base,configs/{profile}"

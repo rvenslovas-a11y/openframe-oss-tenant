@@ -10,7 +10,7 @@ For the quickest start, use our development shell scripts:
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/flamingo-stack/openframe-oss-tenant.git
+git clone https://github.com/rvenslovas-a11y/openframe-oss-tenant.git
 cd openframe-oss-tenant
 
 # 2. Start development dependencies
@@ -32,7 +32,7 @@ open http://localhost:3000
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/flamingo-stack/openframe-oss-tenant.git
+git clone https://github.com/rvenslovas-a11y/openframe-oss-tenant.git
 cd openframe-oss-tenant
 ```
 

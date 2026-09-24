@@ -98,7 +98,7 @@ Start by setting up your local development environment with all required depende
 
 ```bash
 # Clone the repository
-git clone https://github.com/flamingo-stack/openframe-oss-tenant.git
+git clone https://github.com/rvenslovas-a11y/openframe-oss-tenant.git
 cd openframe-oss-tenant
 
 # Follow the Environment Setup guide

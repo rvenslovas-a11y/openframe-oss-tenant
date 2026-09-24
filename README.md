@@ -51,7 +51,7 @@ Get OpenFrame running locally in under 5 minutes:
 
 ```bash
 # Clone and setup
-git clone https://github.com/flamingo-stack/openframe-oss-tenant.git
+git clone https://github.com/rvenslovas-a11y/openframe-oss-tenant.git
 cd openframe-oss-tenant
 
 # Start dependencies (MongoDB, Redis, Kafka, Cassandra, Pinot, NATS)

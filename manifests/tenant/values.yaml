@@ -137,7 +137,7 @@ openframe-saas:
     enabled: true
     image:
       repository: openframe-api
-      tag: ""
+      tag: "1.0.8"
     resources:
       requests:
         cpu: "350m"
@@ -150,7 +150,7 @@ openframe-saas:
     enabled: true
     image:
       repository: openframe-authorization-server
-      tag: ""
+      tag: "1.0.8"
     resources:
       requests:
         cpu: "250m"
@@ -163,7 +163,7 @@ openframe-saas:
     enabled: true
     image:
       repository: openframe-client
-      tag: ""
+      tag: "1.0.8"
     resources:
       requests:
         cpu: "250m"
@@ -176,7 +176,7 @@ openframe-saas:
     enabled: true
     image:
       repository: openframe-external-api
-      tag: ""
+      tag: "1.0.8"
     resources:
       requests:
         cpu: "250m"
@@ -188,9 +188,9 @@ openframe-saas:
   frontend:
     enabled: true
     image:
-      registry: ghcr.io/flamingo-stack/openframe-frontend
-      repository: openframe-frontend
-      tag: ""
+      registry: ghcr.io/flamingo-stack/openframe-oss-frontend
+      repository: openframe-oss-frontend
+      tag: "1.0.8"
     # frontend has no /metrics endpoint; only ship logs
     podAnnotations:
       loki.grafana.com/scrape: "true"
@@ -206,7 +206,7 @@ openframe-saas:
     enabled: true
     image:
       repository: openframe-gateway
-      tag: ""
+      tag: "1.0.8"
     resources:
       requests:
         cpu: "250m"
@@ -219,7 +219,7 @@ openframe-saas:
     enabled: true
     image:
       repository: openframe-management
-      tag: ""
+      tag: "1.0.8"
     resources:
       requests:
         cpu: "250m"
@@ -232,7 +232,7 @@ openframe-saas:
     enabled: true
     image:
       repository: openframe-stream
-      tag: ""
+      tag: "1.0.8"
     resources:
       requests:
         cpu: "250m"

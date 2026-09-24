@@ -35,7 +35,7 @@ tests:
     asserts:
       - equal:
           path: spec.sources[0].repoURL
-          value: https://github.com/flamingo-stack/openframe-oss-tenant.git
+          value: https://github.com/rvenslovas-a11y/openframe-oss-tenant.git
       - equal:
           path: spec.sources[0].targetRevision
           value: main

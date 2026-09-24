@@ -18,7 +18,7 @@ Before starting, ensure you have completed the [Environment Setup](environment.m
 
 ```bash
 # Clone the main repository
-git clone https://github.com/flamingo-stack/openframe-oss-tenant.git
+git clone https://github.com/rvenslovas-a11y/openframe-oss-tenant.git
 cd openframe-oss-tenant
 
 # Set up development branch (optional)
