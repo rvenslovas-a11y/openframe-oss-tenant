@@ -47,7 +47,7 @@ spec:
               port: http
             periodSeconds: 5
             timeoutSeconds: 5
-            failureThreshold: 36   # up to 3m to start (initial git clone included)
+            failureThreshold: 120  # up to 10m to start (initial git clone included)
           livenessProbe:
             httpGet:
               path: /xml/shared-logback-spring.xml
