@@ -75,7 +75,7 @@ spec:
               port: 8083
             periodSeconds: 5
             timeoutSeconds: 5
-            failureThreshold: 36   # up to 3m to start
+            failureThreshold: 120  # up to 10m to start
           {{- end }}
           {{- if .Values.probes.liveness.enabled }}
           livenessProbe:
