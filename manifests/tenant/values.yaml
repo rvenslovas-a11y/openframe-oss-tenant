@@ -6,7 +6,7 @@ deployment:
   # Ingress toggles (localhost via nginx, or ngrok for external access)
   ingress:
     localhost:
-      host: "openframe.local"
+      host: "openframe.itskyrius.lt"
       enabled: true
     ngrok:
       enabled: false
