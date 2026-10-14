@@ -79,7 +79,7 @@ spec:
             exec:
               command: ["/bin/bash", "/usr/local/bin/readiness-command.sh"]
             initialDelaySeconds: 30
-            periodSeconds: 5
+            periodSeconds: 30
             timeoutSeconds: 10
             failureThreshold: 24
             successThreshold: 1
